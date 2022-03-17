@@ -1,0 +1,21 @@
+{
+    "sum":{
+        "xlsum" : {
+            "auxi_lang" : ["punjabi", "spanish", "vietnamese"], "tgt_lang" : ["hindi", "urdu", "telugu", "turkish", "japanese", "korean", "gujarati", "bengali", "nepali", "tamil", "marathi", "swahili", "portuguese", "french", "russian", "thai", "chinese", "indonesian", "arabic"]
+        },
+        "wikilingua" : {
+            "auxi_lang" : ["korean", "spanish", "vietnamese"], "tgt_lang" : ["turkish", "dutch", "russian", "hindi", "japanese", "italian", "portuguese", "german", "french", "czech", "thai", "chinese", "indonesian", "arabic"]
+        }
+    },
+    "qg":{
+        "tydiqa": {
+            "auxi_lang" : ["telugu", "arabic"], "tgt_lang" : ["tamil", "finnish", "korean", "bengali", "swahili", "russian", "indonesian"]
+        },
+        "mlqa": {
+            "auxi_lang" : ["japanese", "german", "vietnamese"], "tgt_lang" : ["hindi", "spanish", "chinese", "arabic"]
+        },
+        "xquad" : {
+            "auxi_lang" : ["turkish", "spanish", "thai"], "tgt_lang" : ["hindi", "romanian", "german",  "vietnamese", "russian", "chinese", "greek", "arabic"]
+        }
+    }
+}
