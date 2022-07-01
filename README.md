@@ -11,7 +11,7 @@ conda activate py37_ZmBART
 ``` 
 We tested the code with ```Python=3.8```, ```PyTorch==1.8``` and ```transformers=4.11```
 
-## Downloads
+All dataset-specific Meta-XNLG chekpoints can be downloaded from [here](https://drive.google.com/drive/folders/1ziTVKR7j_yIGDumLRJL-4Bah-uggeuta?usp=sharing)
 
-- Download all dataset specific Meta-XNLG chekpoints [here](https://drive.google.com/drive/folders/1ziTVKR7j_yIGDumLRJL-4Bah-uggeuta?usp=sharing)
 
+## Zero-shot generation with Meta-XNLG for XL-SUM dataset
