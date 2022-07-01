@@ -103,3 +103,21 @@ python train.py \
     --config_file_name ${config_file_name} \
     --n_inner_iter 2 \
 ```
+
+## Citation
+
+```
+@inproceedings{maurya-desarkar-2022-meta,
+    title = "Meta-X$_{NLG}$: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation",
+    author = "Maurya, Kaushal  and
+      Desarkar, Maunendra",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2022",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-acl.24",
+    doi = "10.18653/v1/2022.findings-acl.24",
+    pages = "269--284",
+}
+```
