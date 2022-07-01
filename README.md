@@ -122,4 +122,4 @@ python train.py \
 }
 ```
 
-This code was built with [higher](https://github.com/facebookresearch/higher) library and inspired from [X-MAML](https://github.com/copenlu/X-MAML).
+The meta-learning implementations are done with [higher](https://github.com/facebookresearch/higher) library and inspired from [X-MAML](https://github.com/copenlu/X-MAML).
