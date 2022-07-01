@@ -9,7 +9,6 @@ All the dependencies can be installed with the below conda command.
 conda env create --file environment.yml
 conda activate py37_ZmBART
 ``` 
-We tested the code with ```Python=3.7``` and```PyTorch==1.8```
+We tested the code with ```Python=3.8```, ```PyTorch==1.8``` and ```transformers=4.11```
 
-Install the sentence-piece (SPM) from [here](https://github.com/google/sentencepiece). The binary should be in ```/usr/local/bin/spm_encode```
 
