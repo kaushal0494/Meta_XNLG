@@ -121,3 +121,5 @@ python train.py \
     pages = "269--284",
 }
 ```
+
+This code was built with [higher](https://github.com/facebookresearch/higher) library and inspired from [X-MAML](https://github.com/copenlu/X-MAML).
