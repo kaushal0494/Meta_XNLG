@@ -18,12 +18,59 @@ conda activate py37_ZmBART
 ``` 
 The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. You can download all data, model-checkpoint, generations and other resources from [here](https://iith-my.sharepoint.com/:f:/g/personal/cs18resch11003_iith_ac_in/EuGPeheMMc9Dlp4sKdwACJkBGLa3MSepHahpHFzZS3F4gQ?e=0xarjl).
 
+## Training and Generation
+
+### Step-1: ZmT5 Checkpoint
+ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBART](https://github.com/kaushal0494/ZmBART) (see step-1). However, if you wish to skip this step, you can directly download the [ZmT5 checkpoint]() which supports 30 languages listed below:
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+### Fine-tuning mT5with Centroid Languages for XL-SUM dataset
+```
+export task_name="sum"
+export input_data_dir_name="xlsum"
+
+#input and output directories
+export BASE_DIR='.'
+export input_dir="XLSum_input/"
+export output_dir="outputs/xlsum_out"
+
+#model details
+export model_type="t5" 
+export model_chkpt="ZmT5_checkpoint"
+
+export cache_dir='../cache_dir'
+export config_file_name="auxi_tgt_lang_config" 
+
+python train.py \
+    --input_dir ${input_dir}${input_data_dir_name} \
+    --output_dir ${output_dir} \
+    --model_type $model_type \
+    --model_chkpt $model_chkpt \
+    --max_source_length 512 \
+    --max_target_length 84 \
+    --train_batch_size 4 \
+    --learning_rate 1e-4 \
+    --meta_lr 1e-5 \
+    --weight_decay 0.01 \
+    --adam_epsilon 1e-08 \
+    --num_train_epochs 10 \
+    --logging_steps 10 \
+    --save_steps 1 \
+    --cache_dir ${cache_dir} \
+    --read_n_data_obj 1000  \
+    --task_name ${task_name} \
+    --freeze_embeds_and_decoder \
+    --task_data_name ${input_data_dir_name} \
+    --config_file_name ${config_file_name} \
+    --n_inner_iter 2 \
+```
 
 ## Zero-shot Target Language Generation with Meta-XNLG for XL-SUM dataset
 ```
-#!/bin/bash
-
-export CUDA_VISIBLE_DEVICES=0
 source activate hpnlg_py38
 
 export seed=1234
@@ -64,50 +111,7 @@ python train.py \
     --do_test 
 ```
 
-## Model Fine-tuning with Centroid Languages for XL-SUM dataset
-```
 
-export CUDA_VISIBLE_DEVICES=0
-source activate hpnlg_py38
-
-export task_name="sum"
-export input_data_dir_name="xlsum"
-
-#input and output directories
-export BASE_DIR='.'
-export input_dir="XLSum_input/"
-export output_dir="outputs/xlsum_out"
-
-#model details
-export model_type="t5" 
-export model_chkpt="ZmT5_checkpoint"
-
-export cache_dir='../cache_dir'
-export config_file_name="auxi_tgt_lang_config" 
-
-python train.py \
-    --input_dir ${input_dir}${input_data_dir_name} \
-    --output_dir ${output_dir} \
-    --model_type $model_type \
-    --model_chkpt $model_chkpt \
-    --max_source_length 512 \
-    --max_target_length 84 \
-    --train_batch_size 4 \
-    --learning_rate 1e-4 \
-    --meta_lr 1e-5 \
-    --weight_decay 0.01 \
-    --adam_epsilon 1e-08 \
-    --num_train_epochs 10 \
-    --logging_steps 10 \
-    --save_steps 1 \
-    --cache_dir ${cache_dir} \
-    --read_n_data_obj 1000  \
-    --task_name ${task_name} \
-    --freeze_embeds_and_decoder \
-    --task_data_name ${input_data_dir_name} \
-    --config_file_name ${config_file_name} \
-    --n_inner_iter 2 \
-```
 
 ## Citation
 
