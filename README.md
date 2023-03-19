@@ -16,7 +16,7 @@ To set up the environment, use the following conda commands:
 conda env create --file environment.yml
 conda activate py37_ZmBART
 ``` 
-The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. You can download dataset, model-chckpoints, generation and other resources from [here](https://drive.google.com/drive/folders/1ziTVKR7j_yIGDumLRJL-4Bah-uggeuta?usp=sharing).
+The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. You can download all data, model-checkpoint, generations and other resources from [here](https://drive.google.com/drive/folders/1ziTVKR7j_yIGDumLRJL-4Bah-uggeuta?usp=sharing).
 
 
 ## Zero-shot Target Language Generation with Meta-XNLG for XL-SUM dataset
