@@ -83,7 +83,7 @@ python train.py \
     --n_inner_iter 2 \
 ```
 
-## Zero-shot Generation with Target (non-centriod) Language Generation with Meta-XNLG
+### Step-3: Zero-shot Generation with Target (non-centriod) Language Generation with Meta-XNLG
 ```
 source activate hpnlg_py38
 
