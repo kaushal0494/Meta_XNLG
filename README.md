@@ -23,25 +23,18 @@ The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. 
 ### Step-1: ZmT5 Checkpoint
 ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBART](https://github.com/kaushal0494/ZmBART) (see step-1). However, if you wish to skip this step, you can directly download the [ZmT5 checkpoint]() which supports 30 languages listed below:
 
-| SN  | ISO-3 | Language || SN  | ISO-3 | Language |
-| -- | ---- | --------|-| -- | ---- | --------|
-| 1  | eng | English  || 11  | mar  | Marathi  |
-| 2  | hin  | Hindi  || 12  | nep  | Nepali  |
-| 3 | urd  |  Urdu  || 13  | tam  | Tamil  |
-| 4  |  tel |  Telugu  || 14  | pan  | Punjabi  |
-| 5  | tur  | Turkish   || 15  | swa  | Swahili  |
-| 6  | fin  | Finnish  || 16  | spa  | Spanish  |
-| 7  | jpn  | Japanese  || 17  | ita  | Italian  |
-| 8  | kor  | Korean  || 18  | por  | Portuguese  |
-| 9  | guj  | Gujarati  || 19  | rom  | Romanian  |
-| 10  | ben  | Bengali  || 20  | nld  | Dutch  |
-
-
-
-
-
-
-
+| SN  | ISO-3 | Language || SN  | ISO-3 | Language || SN  | ISO-3 | Language |
+| -- | ---- | --------|-| -- | ---- | --------|-| -- | ---- | --------|
+| 1  | eng | English  || 11  | mar  | Marathi  || 21  | deu  | German  |
+| 2  | hin  | Hindi  || 12  | nep  | Nepali  || 22  | fra  | French  |
+| 3 | urd  |  Urdu  || 13  | tam  | Tamil  || 23  | rus  | Russian  |
+| 4  |  tel |  Telugu  || 14  | pan  | Punjabi  || 24  | ces  | Czech  |
+| 5  | tur  | Turkish   || 15  | swa  | Swahili  || 25  | vie  | Vietnamese  |
+| 6  | fin  | Finnish  || 16  | spa  | Spanish  || 26  | tha  | Thai  |
+| 7  | jpn  | Japanese  || 17  | ita  | Italian  || 27  | zho  | Chinese (Sim)  |
+| 8  | kor  | Korean  || 18  | por  | Portuguese  || 28  | ind  | Indonesian  |
+| 9  | guj  | Gujarati  || 19  | rom  | Romanian  || 29  | ell  | Greek  |
+| 10  | ben  | Bengali  || 20  | nld  | Dutch  || 30  | ara  | Arabic  |
 
 
 ### Fine-tuning mT5with Centroid Languages for XL-SUM dataset
