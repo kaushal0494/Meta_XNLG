@@ -6,7 +6,7 @@
 [![others](https://img.shields.io/badge/Huggingface-Cuda%2011.1.0-brightgreen)](https://huggingface.co/)
 [![others](https://img.shields.io/badge/PyTorch-Stable%20(1.8.0)-orange)](https://pytorch.org/)
 
-## Sample Gnerations from Meta-XNLG
+## Sample Generations from Meta-XNLG
 ![](https://github.com/kaushal0494/Meta_XNLG/blob/main/sample_gens.png)
 
 ## About
