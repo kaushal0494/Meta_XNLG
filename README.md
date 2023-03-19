@@ -41,7 +41,7 @@ ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBAR
 
 
 ### Step-2: Meta-Learning with Centroid Languages
-In this section, we present the meta-learning training and generation pipeline for the abstractive text summarization task. We use the popular[XL-SUM](https://github.com/csebuetnlp/xl-sum) dataset. The underlying pre-trained checkpoint is ZmT5, and the meta-learning algorithm used is MAML.
+In this section, we present the meta-learning training and generation pipeline for the abstractive text summarization task. We use the popular [XL-SUM](https://github.com/csebuetnlp/xl-sum) dataset. The underlying pre-trained checkpoint is ZmT5, and the meta-learning algorithm used is MAML.
 
 ```
 export task_name="sum"
