@@ -42,16 +42,6 @@ ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBAR
 
 
 
-| 21  | deu  | German  |
-| 22  | fra  | French  |
-| 23  | rus  | Russian  |
-| 24  | ces  | Czech  |
-| 25  | vie  | Vietnamese  |
-| 26  | tha  | Thai  |
-| 27  | zho  | Chinese (Sim)  |
-| 28  | ind  | Indonesian  |
-| 29  | ell  | Greek  |
-| 30  | ara  | Arabic  |
 
 
 ### Fine-tuning mT5with Centroid Languages for XL-SUM dataset
