@@ -19,7 +19,7 @@ To set up the environment, use the following conda commands:
 conda env create --file environment.yml
 conda activate py37_ZmBART
 ``` 
-The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. You can download all data, model-checkpoint, generations and other resources from [here](https://iith-my.sharepoint.com/:f:/g/personal/cs18resch11003_iith_ac_in/EuGPeheMMc9Dlp4sKdwACJkBGLa3MSepHahpHFzZS3F4gQ?e=0xarjl).
+The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. You can download model-checkpoint from [here](https://iith-my.sharepoint.com/:f:/g/personal/cs18resch11003_iith_ac_in/EuGPeheMMc9Dlp4sKdwACJkBGLa3MSepHahpHFzZS3F4gQ?e=0xarjl).
 
 ## Training and Generation
 
