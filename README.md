@@ -23,10 +23,10 @@ The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. 
 ### Step-1: ZmT5 Checkpoint
 ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBART](https://github.com/kaushal0494/ZmBART) (see step-1). However, if you wish to skip this step, you can directly download the [ZmT5 checkpoint]() which supports 30 languages listed below:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| SN  | ISO-3 | Language |
+| ------------- | ------------- | ------------- |
+| 1  | eng | English  |
+| 2  | hin  | Hindi  |
 
 ### Fine-tuning mT5with Centroid Languages for XL-SUM dataset
 ```
