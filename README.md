@@ -6,6 +6,9 @@
 [![others](https://img.shields.io/badge/Huggingface-Cuda%2011.1.0-brightgreen)](https://huggingface.co/)
 [![others](https://img.shields.io/badge/PyTorch-Stable%20(1.8.0)-orange)](https://pytorch.org/)
 
+## Sample Gnerations from Meta-XNLG
+
+
 ## About
 This repository contains the source code of the paper titled [Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation](https://aclanthology.org/2022.findings-acl.24.pdf) which is published in the Findings of the *Association of Computational Linguistics (ACL 2022)* conference. If you have any questions, please feel free to create a Github issue or reach out to the first author at <cs18resch11003@iith.ac.in>.
 
@@ -37,7 +40,9 @@ ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBAR
 | 10  | ben  | Bengali  || 20  | nld  | Dutch  || 30  | ara  | Arabic  |
 
 
-### Fine-tuning mT5with Centroid Languages for XL-SUM dataset
+### Step-2: Meta-Learning with Centroid Languages
+In this section, we present the meta-learning training and generation pipeline for the abstractive text summarization task. We use the popular[XL-SUM](https://github.com/csebuetnlp/xl-sum) dataset. The underlying pre-trained checkpoint is ZmT5, and the meta-learning algorithm used is MAML.
+
 ```
 export task_name="sum"
 export input_data_dir_name="xlsum"
@@ -78,7 +83,7 @@ python train.py \
     --n_inner_iter 2 \
 ```
 
-## Zero-shot Target Language Generation with Meta-XNLG for XL-SUM dataset
+## Zero-shot Generation with Target (non-centriod) Language Generation with Meta-XNLG
 ```
 source activate hpnlg_py38
 
