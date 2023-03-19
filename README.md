@@ -27,6 +27,35 @@ ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBAR
 | ------------- | ------------- | ------------- |
 | 1  | eng | English  |
 | 2  | hin  | Hindi  |
+| 3 | urd  |  Urdu  |
+| 4  |  tel |  Telugu  |
+| 5  | tur  | Turkish   |
+| 6  | fin  | Finnish  |
+| 7  | jpn  | Japanese  |
+| 8  | kor  | Korean  |
+| 9  | guj  | Gujarati  |
+| 10  | ben  | Bengali  |
+| 11  | mar  | Marathi  |
+| 12  | nep  | Nepali  |
+| 13  | tam  | Tamil  |
+| 14  | pan  | Punjabi  |
+| 15  | swa  | Swahili  |
+| 16  | spa  | Spanish  |
+| 17  | ita  | Italian  |
+| 18  | por  | Portuguese  |
+| 19  | rom  | Romanian  |
+| 20  | nld  | Dutch  |
+| 21  | deu  | German  |
+| 22  | fra  | French  |
+| 23  | rus  | Russian  |
+| 24  | ces  | Czech  |
+| 25  | vie  | Vietnamese  |
+| 26  | tha  | Thai  |
+| 27  | zho  | Chinese (Sim)  |
+| 28  | ind  | Indonesian  |
+| 29  | ell  | Greek  |
+| 30  | ara  | Arabic  |
+
 
 ### Fine-tuning mT5with Centroid Languages for XL-SUM dataset
 ```
