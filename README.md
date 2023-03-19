@@ -24,7 +24,7 @@ The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. 
 ZmT5 is obtained by following the fine-tuning algorithms presented in the [ZmBART](https://github.com/kaushal0494/ZmBART) (see step-1). However, if you wish to skip this step, you can directly download the [ZmT5 checkpoint]() which supports 30 languages listed below:
 
 | SN  | ISO-3 | Language || SN  | ISO-3 | Language |
-| -- | ---- | --------|| -- | ---- | --------|
+| -- | ---- | --------|-| -- | ---- | --------|
 | 1  | eng | English  || 11  | mar  | Marathi  |
 | 2  | hin  | Hindi  || 12  | nep  | Nepali  |
 | 3 | urd  |  Urdu  || 13  | tam  | Tamil  |
