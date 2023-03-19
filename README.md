@@ -7,15 +7,13 @@
 This repository contains the source code of the paper titled [Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation](https://aclanthology.org/2022.findings-acl.24.pdf) which is published in the Findings of the *Association of Computational Linguistics (ACL 2022)* conference. If you have any questions, please feel free to create a Github issue or reach out to the first author at <cs18resch11003@iith.ac.in>.
 
 ## Environment Setup and Downloads
-All the dependencies can be installed with the below conda command:
+To set up the environment, use the following conda commands:
 
 ``` 
 conda env create --file environment.yml
 conda activate py37_ZmBART
 ``` 
-We tested the code with ```Python=3.8```, ```PyTorch==1.8``` and ```transformers=4.11```
-
-All dataset-specific Meta-XNLG chekpoints can be downloaded from [here](https://drive.google.com/drive/folders/1ziTVKR7j_yIGDumLRJL-4Bah-uggeuta?usp=sharing)
+The code was tested with `Python=3.8`, `PyTorch==1.8`, and `transformers=4.11`. You can download dataset, model-chckpoints, generation and other resources from [here](https://drive.google.com/drive/folders/1ziTVKR7j_yIGDumLRJL-4Bah-uggeuta?usp=sharing).
 
 
 ## Zero-shot Target Language Generation with Meta-XNLG for XL-SUM dataset
