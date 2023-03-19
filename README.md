@@ -7,7 +7,7 @@
 [![others](https://img.shields.io/badge/PyTorch-Stable%20(1.8.0)-orange)](https://pytorch.org/)
 
 ## Sample Gnerations from Meta-XNLG
-
+![](https://github.com/kaushal0494/Meta_XNLG/blob/main/sample_gens.png)
 
 ## About
 This repository contains the source code of the paper titled [Meta-XNLG: A Meta-Learning Approach Based on Language Clustering for Zero-Shot Cross-Lingual Transfer and Generation](https://aclanthology.org/2022.findings-acl.24.pdf) which is published in the Findings of the *Association of Computational Linguistics (ACL 2022)* conference. If you have any questions, please feel free to create a Github issue or reach out to the first author at <cs18resch11003@iith.ac.in>.
